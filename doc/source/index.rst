@@ -8,5 +8,6 @@ TaurusDB is the latest generation enterprise-class distributed database. It is f
 
    .. service_card::
       :service_type: taurusdb
+      :environment: public
       :umn: This document describes basic concepts, functions, key terms, and FAQs of TaurusDB and provides instructions for applying for and using TaurusDB.
       :api-ref: This document describes application programming interfaces (APIs) of TaurusDB and provides API parameter description and example values.
