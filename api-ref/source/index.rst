@@ -7,7 +7,7 @@ TaurusDB - API Reference
 
    before_you_start/index
    api_overview
-   api_usage_guidelines/index
+   calling_apis/index
    apis_recommended/index
    apis_unavailable_soon/index
    appendix/index

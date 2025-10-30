@@ -20,7 +20,7 @@ URI
 
    GET https://{endpoint}/mysql/v3/{project_id}/backups?instance_id={instance_id}&backup_id={backup_id}&backup_type={backup_type}&offset={offset}&limit={limit}&begin_time={begin \_time}&end_time={end_time}
 
--  Example
+-  URI example
 
    GET https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/97b026aa9cc4417888c14c84a1ad9860/backups?instance_id=c3ec2c6148ad4d71b1a8411a62df0d3cin07&backup_id=43e4feaab48f11e89039fa163ebaa7e4br01&backup_type=auto&offset=0&limit=10&begin_time=2020-07-06T10:41:14+0800&end_time=2020-07-16T10:41:14+0800
 

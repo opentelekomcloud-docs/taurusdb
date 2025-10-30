@@ -2,13 +2,13 @@
 
 .. _UpdateSqlFilterControl:
 
-Enabling or Disabling SQL Statement Concurrency Control
-=======================================================
+Enabling or Disabling SQL Throttling
+====================================
 
 Function
 --------
 
-This API is used to enable or disable SQL Statement Concurrency Control. Before calling this API:
+This API is used to enable or disable SQL Throttling. Before calling this API:
 
 -  Learn how to :ref:`authorize and authenticate <gaussdb_03_0001>` it.
 -  Obtain the required :ref:`region and endpoint <gaussdb_00_0003>`.
@@ -42,29 +42,29 @@ Request Parameters
    X-Language   No        String Language.
    ============ ========= ====== ===========
 
-.. table:: **Table 3** Request body parameters
+.. table:: **Table 3** Request body parameter
 
-   +-----------------+-----------------+-----------------+--------------------------------------------------------------+
-   | Parameter       | Mandatory       | Type            | Description                                                  |
-   +=================+=================+=================+==============================================================+
-   | switch_status   | Yes             | String          | Whether SQL Statement Concurrency Control is enabled. Value: |
-   |                 |                 |                 |                                                              |
-   |                 |                 |                 | -  **ON**: enabled                                           |
-   |                 |                 |                 | -  **OFF**: disabled                                         |
-   +-----------------+-----------------+-----------------+--------------------------------------------------------------+
+   +-----------------+-----------------+-----------------+-------------------------------------------+
+   | Parameter       | Mandatory       | Type            | Description                               |
+   +=================+=================+=================+===========================================+
+   | switch_status   | Yes             | String          | Whether SQL Throttling is enabled. Value: |
+   |                 |                 |                 |                                           |
+   |                 |                 |                 | -  **ON**: enabled                        |
+   |                 |                 |                 | -  **OFF**: disabled                      |
+   +-----------------+-----------------+-----------------+-------------------------------------------+
 
 Response Parameters
 -------------------
 
 **Status code: 200**
 
-.. table:: **Table 4** Response body parameters
+.. table:: **Table 4** Response body parameter
 
-   +-----------+--------+-----------------------------------------------------------------------------+
-   | Parameter | Type   | Description                                                                 |
-   +===========+========+=============================================================================+
-   | job_id    | String | ID of the task for enabling or disabling SQL Statement Concurrency Control. |
-   +-----------+--------+-----------------------------------------------------------------------------+
+   +-----------+--------+----------------------------------------------------------+
+   | Parameter | Type   | Description                                              |
+   +===========+========+==========================================================+
+   | job_id    | String | ID of the task for enabling or disabling SQL Throttling. |
+   +-----------+--------+----------------------------------------------------------+
 
 **Status code: 400**
 
@@ -91,7 +91,7 @@ Response Parameters
 Example Request
 ---------------
 
--  Enabling SQL Statement Concurrency Control
+-  Enabling SQL Throttling
 
    .. code-block:: text
 
@@ -100,7 +100,7 @@ Example Request
         "switch_status" : "ON"
       }
 
--  Disabling SQL Statement Concurrency Control
+-  Disabling SQL Throttling
 
    .. code-block:: text
 

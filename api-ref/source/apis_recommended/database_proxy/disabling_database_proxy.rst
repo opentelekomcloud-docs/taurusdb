@@ -28,7 +28,7 @@ DELETE /v3/{project_id}/instances/{instance_id}/proxy
    |                 |                 |                 |                                                                            |
    |                 |                 |                 | To obtain this value, see :ref:`Obtaining a Project ID <gaussdb_10_0004>`. |
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------------+
-   | instance_id     | Yes             | String          | DB instance ID.                                                            |
+   | instance_id     | Yes             | String          | Instance ID.                                                               |
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------------+
 
 Request Parameters
@@ -89,7 +89,7 @@ Response Parameters
 Example Request
 ---------------
 
-.. code-block:: text
+.. code-block::
 
    DELETE https://gaussdb-mysql.eu-de.otc.t-systems.com/v3/054e292c9880d4992f02c0196d3ea468/instances/096c0fc43e804757b59946b80dc27f8bin07/proxy
    {

@@ -27,7 +27,7 @@ GET /v3/{project_id}/instances/{instance_id}/monitor-policy
    |                 |                 |                 |                                                                            |
    |                 |                 |                 | To obtain this value, see :ref:`Obtaining a Project ID <gaussdb_10_0004>`. |
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------------+
-   | instance_id     | Yes             | String          | DB instance ID.                                                            |
+   | instance_id     | Yes             | String          | Instance ID.                                                               |
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------------+
 
 Request Parameters

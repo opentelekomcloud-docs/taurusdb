@@ -20,7 +20,7 @@ URI
 
    GET https://{endpoint}/mysql/v3/{project_id}/instances/{instance_id}
 
--  Example
+-  URI example
 
    GET https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/97b026aa9cc4417888c14c84a1ad9860/instances/436aaafb689c4250a9a5bb33cb271e8cin07
 

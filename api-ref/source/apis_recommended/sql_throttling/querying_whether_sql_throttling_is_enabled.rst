@@ -2,13 +2,13 @@
 
 .. _ShowSqlFilterControl:
 
-Querying Whether SQL Statement Concurrency Control Is Enabled
-=============================================================
+Querying Whether SQL Throttling Is Enabled
+==========================================
 
 Function
 --------
 
-This API is used to query whether SQL Statement Concurrency Control is enabled. Before calling this API:
+This API is used to query whether SQL Throttling is enabled. Before calling this API:
 
 -  Learn how to :ref:`authorize and authenticate <gaussdb_03_0001>` it.
 -  Obtain the required :ref:`region and endpoint <gaussdb_00_0003>`.
@@ -47,18 +47,18 @@ Response Parameters
 
 **Status code: 200**
 
-.. table:: **Table 3** Response body parameters
+.. table:: **Table 3** Response body parameter
 
-   +-----------------------+-----------------------+-------------------------------------------------------+
-   | Parameter             | Type                  | Description                                           |
-   +=======================+=======================+=======================================================+
-   | switch_status         | String                | Whether SQL Statement Concurrency Control is enabled. |
-   |                       |                       |                                                       |
-   |                       |                       | Value:                                                |
-   |                       |                       |                                                       |
-   |                       |                       | -  **ON**: enabled                                    |
-   |                       |                       | -  **OFF:** disabled                                  |
-   +-----------------------+-----------------------+-------------------------------------------------------+
+   +-----------------------+-----------------------+------------------------------------+
+   | Parameter             | Type                  | Description                        |
+   +=======================+=======================+====================================+
+   | switch_status         | String                | Whether SQL Throttling is enabled. |
+   |                       |                       |                                    |
+   |                       |                       | Value:                             |
+   |                       |                       |                                    |
+   |                       |                       | -  **ON**: enabled                 |
+   |                       |                       | -  **OFF:** disabled               |
+   +-----------------------+-----------------------+------------------------------------+
 
 **Status code: 400**
 
@@ -85,7 +85,7 @@ Response Parameters
 Example Request
 ---------------
 
-Querying whether SQL Statement Concurrency Control is enabled
+Querying whether SQL Throttling is enabled
 
 .. code-block:: text
 

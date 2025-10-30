@@ -20,7 +20,7 @@ URI
 
    DELETE https://{endpoint}/mysql/v3/{project_id}/instances/{instance_id}/nodes/{node_id}
 
--  Example
+-  URI example
 
    DELETE https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/0483b6b16e954cb88930a360d2c4e663/instances/dsfae23fsfdsae3435in01/nodes/d11ae66fsfdsaer3w3ino9
 
@@ -35,7 +35,7 @@ URI
       |                       |                       |                                                                            |
       |                       |                       | To obtain this value, see :ref:`Obtaining a Project ID <gaussdb_10_0004>`. |
       +-----------------------+-----------------------+----------------------------------------------------------------------------+
-      | instance_id           | Yes                   | DB instance ID, which is compliant with the UUID format.                   |
+      | instance_id           | Yes                   | Instance ID, which is compliant with the UUID format.                      |
       +-----------------------+-----------------------+----------------------------------------------------------------------------+
       | node_id               | Yes                   | Read-only node ID, which is compliant with the UUID format.                |
       +-----------------------+-----------------------+----------------------------------------------------------------------------+

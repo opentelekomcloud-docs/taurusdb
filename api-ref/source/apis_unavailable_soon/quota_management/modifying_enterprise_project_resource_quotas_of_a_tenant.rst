@@ -20,7 +20,7 @@ URI
 
    PUT https://{endpoint}/mysql/v3/{project_id}/quotas
 
--  Example
+-  URI example
 
    PUT https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/0483b6b16e954cb88930a360d2c4e663/quotas
 
@@ -126,9 +126,10 @@ Response Parameters
 Example Request
 ---------------
 
-.. code-block:: text
+.. code-block::
 
    POST https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/0483b6b16e954cb88930a360d2c4e663/quotas
+
    {
      "quota_list" : [ {
        "enterprise_project_id" : "0",

@@ -22,9 +22,9 @@ Constraints
 URI
 ---
 
-GET /v3/{project_id}/jobs?id={id}
+GET /v3/{project_id}/jobs
 
-.. table:: **Table 1** URI parameters
+.. table:: **Table 1** URI parameter
 
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------------+
    | Parameter       | Mandatory       | Type            | Description                                                                |
@@ -34,7 +34,7 @@ GET /v3/{project_id}/jobs?id={id}
    |                 |                 |                 | To obtain this value, see :ref:`Obtaining a Project ID <gaussdb_10_0004>`. |
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------------+
 
-.. table:: **Table 2** Query parameters
+.. table:: **Table 2** Query parameter
 
    ========= ========= ====== ===========
    Parameter Mandatory Type   Description

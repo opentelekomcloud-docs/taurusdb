@@ -16,7 +16,7 @@ This API is used to query database slow logs. Before using this API:
 URI
 ---
 
-GET /v3/{project_id}/instances/{instance_id}/slowlog?start_date={start_date}&end_date={end_date}&node_id={node_id}
+GET /v3/{project_id}/instances/{instance_id}/slowlog
 
 .. table:: **Table 1** URI parameters
 

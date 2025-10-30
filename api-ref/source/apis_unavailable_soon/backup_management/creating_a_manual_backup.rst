@@ -20,7 +20,7 @@ URI
 
    POST https://{endpoint}/mysql/v3/{project_id}/backups/create
 
--  Example
+-  URI example
 
    POST https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/0483b6b16e954cb88930a360d2c4e663/backups/create
 
@@ -56,7 +56,7 @@ Request Parameters
    +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Parameter       | Mandatory       | Type            | Description                                                                                                                                                  |
    +=================+=================+=================+==============================================================================================================================================================+
-   | instance_id     | Yes             | String          | DB instance ID, which is compliant with the UUID format.                                                                                                     |
+   | instance_id     | Yes             | String          | Instance ID, which is compliant with the UUID format.                                                                                                        |
    +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | name            | Yes             | String          | Backup name.                                                                                                                                                 |
    |                 |                 |                 |                                                                                                                                                              |
@@ -108,7 +108,7 @@ Response Parameters
    |                       |                       |                                                                                                                                                       |
    |                       |                       | **manual**: manual full backup                                                                                                                        |
    +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | instance_id           | String                | DB instance ID.                                                                                                                                       |
+   | instance_id           | String                | Instance ID.                                                                                                                                          |
    +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 **Status code: 400**
@@ -138,9 +138,10 @@ Example Request
 
 Creating a Manual Backup
 
-.. code-block:: text
+.. code-block::
 
    POST https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/0483b6b16e954cb88930a360d2c4e663/backups/create
+
    {
       "instance_id": "d8e6ca5a624745bcb546a227aa3ae1cfin01",
       "name": "backup-1",
