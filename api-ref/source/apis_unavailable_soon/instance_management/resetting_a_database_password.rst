@@ -20,7 +20,7 @@ URI
 
    POST https://{endpoint}/mysql/v3/{project_id}/instances/{instance_id}/password
 
--  Example
+-  URI example
 
    POST https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/97b026aa9cc4417888c14c84a1ad9860/instances/c3ec2c6148ad4d71b1a8411a62df0d3cin07/password
 
@@ -97,7 +97,7 @@ Example Request
 
 Resetting a database password
 
-.. code-block:: text
+.. code-block::
 
    POST https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/97b026aa9cc4417888c14c84a1ad9860/instances/ba62a0b83a1b42bfab275829d86ac0fdin07/password
    {

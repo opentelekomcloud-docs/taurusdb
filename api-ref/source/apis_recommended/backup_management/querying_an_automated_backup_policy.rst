@@ -27,7 +27,7 @@ GET /v3/{project_id}/instances/{instance_id}/backups/policy
    |                 |                 |                 |                                                                            |
    |                 |                 |                 | To obtain this value, see :ref:`Obtaining a Project ID <gaussdb_10_0004>`. |
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------------+
-   | instance_id     | Yes             | String          | DB instance ID, which is compliant with the UUID format.                   |
+   | instance_id     | Yes             | String          | Instance ID, which is compliant with the UUID format.                      |
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------------+
 
 Request Parameters
@@ -120,7 +120,8 @@ Success.
        "keep_days" : "7,",
        "start_time" : "19:00-20:00",
        "period" : "1,2"
-      }
+
+     }
    }
 
 Status Code

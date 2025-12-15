@@ -20,7 +20,7 @@ URI
 
    GET https://{endpoint}/mysql/v3/{project_id}/instances?id={id}&name={name}&type={type}&datastore_type={datastore_type}&vpc_id={vpc_id}&subnet_id={subnet_id}&offset={offset}&limit={limit}
 
--  Example
+-  URI example
 
    GET https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/97b026aa9cc4417888c14c84a1ad9860/instances?id=ed7cc6166ec24360a5ed5c5c9c2ed726in01&name=hy&type=Cluster&datastore_type=gaussdb-mysql&vpc_id=19e5d45d-70fd-4a91-87e9-b27e71c9891f&subnet_id=bd51fb45-2dcb-4296-8783-8623bfe89bb7&offset=0&limit=10
 

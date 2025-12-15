@@ -18,7 +18,7 @@ URI
 
 GET /v3/{project_id}/tags
 
-.. table:: **Table 1** URI parameters
+.. table:: **Table 1** URI parameter
 
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------------+
    | Parameter       | Mandatory       | Type            | Description                                                                |

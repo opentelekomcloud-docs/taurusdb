@@ -20,7 +20,7 @@ URI
 
    GET https://{endpoint}/mysql/v3/{project_id}/flavors/{database_name}?version_name={version_name}&spec_code={spec_code}&availability_zone_mode={availability_zone_mode}
 
--  Example
+-  URI example
 
    GET https://gaussdb-mysql.eu-de.otc.t-systems.com/mysql/v3/0483b6b16e954cb88930a360d2c4e663/flavors/gaussdb-mysql
 

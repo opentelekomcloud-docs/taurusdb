@@ -20,7 +20,7 @@ URI
 
    POST https://{endpoint}/mysql/v3/{project_id}/instances/{instance_id}/action
 
--  Example
+-  URI example
 
    POST https://gaussdb-mysql.eu-de.otc.t-systems.commysql/v3/97b026aa9cc4417888c14c84a1ad9860/instances/c3ec2c6148ad4d71b1a8411a62df0d3cin07/action
 

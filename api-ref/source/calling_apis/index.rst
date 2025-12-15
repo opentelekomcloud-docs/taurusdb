@@ -2,8 +2,8 @@
 
 .. _gaussdb_03_0000:
 
-API Usage Guidelines
-====================
+Calling APIs
+============
 
 -  :ref:`Making an API Request <gaussdb_03_0005>`
 -  :ref:`Authentication <gaussdb_03_0001>`

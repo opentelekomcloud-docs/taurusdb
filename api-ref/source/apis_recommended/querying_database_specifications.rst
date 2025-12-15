@@ -16,7 +16,7 @@ This API is used to query the database specifications of a specified DB engine v
 URI
 ---
 
-GET /v3/{project_id}/flavors/{database_name}?availability_zone_mode={availability_zone_mode}
+GET /v3/{project_id}/flavors/{database_name}
 
 .. table:: **Table 1** URI parameters
 

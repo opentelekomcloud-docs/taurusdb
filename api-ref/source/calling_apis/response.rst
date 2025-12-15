@@ -23,7 +23,7 @@ Similar to a request, a response also has a header, for example, **Content-Type*
 
 .. _gaussdb_03_0006__fig4865141011511:
 
-.. figure:: /_static/images/en-us_image_0000001427231638.png
+.. figure:: /_static/images/en-us_image_0000001562311076.png
    :alt: **Figure 1** Header fields of the response to the request for obtaining a user token
 
    **Figure 1** Header fields of the response to the request for obtaining a user token
@@ -31,7 +31,7 @@ Similar to a request, a response also has a header, for example, **Content-Type*
 (Optional) Response Body
 ------------------------
 
-This part is optional. The body of a response is often returned in structured format as specified in the **Content-Type** header field. The response body transfers content except the response header.
+This part is optional. The body of a response is often returned in structured format (for example, JSON or XML) as specified in the **Content-Type** header field. The response body transfers content except the response header.
 
 The following is part of the response body for the API used to `obtain a user token <https://docs.otc.t-systems.com/en-us/api/iam/en-us_topic_0057845583.html>`__.
 

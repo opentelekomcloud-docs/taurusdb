@@ -68,7 +68,7 @@ Response Parameters
 
 **Status code: 200**
 
-.. table:: **Table 5** Response body parameters
+.. table:: **Table 5** Response body parameter
 
    ========= ====== ===========
    Parameter Type   Description

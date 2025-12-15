@@ -7,6 +7,7 @@ Parameter Template Management
 
 -  :ref:`Querying Parameter Templates <gaussdb_04_0009>`
 -  :ref:`Obtaining Parameter Information of a Specified DB Instance <listinstanceconfigurations>`
+-  :ref:`Modifying Parameters of a Specified Instance <updateinstanceconfigurations>`
 
 .. toctree::
    :maxdepth: 1
@@ -14,3 +15,4 @@ Parameter Template Management
 
    querying_parameter_templates
    obtaining_parameter_information_of_a_specified_db_instance
+   modifying_parameters_of_a_specified_instance

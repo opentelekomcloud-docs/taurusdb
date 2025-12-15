@@ -51,7 +51,7 @@ The HTTP protocol defines the following request methods that can be used to send
    | POST   | Requests the server to add resources or perform special operations. |
    +--------+---------------------------------------------------------------------+
 
-For example, in the case of the API used to `obtain a user token <https://docs.otc.t-systems.com/en-us/api/iam/en-us_topic_0057845583.html>`__, the request method is POST. The request is as follows:
+For example, for the URI of the API used to `obtain a user token <https://docs.otc.t-systems.com/en-us/api/iam/en-us_topic_0057845583.html>`__, the request method is POST. The request is as follows:
 
 Request Header
 --------------

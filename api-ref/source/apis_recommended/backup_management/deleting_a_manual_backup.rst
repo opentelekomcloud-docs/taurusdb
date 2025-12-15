@@ -44,7 +44,7 @@ Response Parameters
 
 **Status code: 200**
 
-.. table:: **Table 3** Response body parameter
+.. table:: **Table 3** Response body parameters
 
    =========== ====== ============
    Parameter   Type   Description
@@ -55,7 +55,7 @@ Response Parameters
 
 **Status code: 400**
 
-.. table:: **Table 4** Response body parameter
+.. table:: **Table 4** Response body parameters
 
    ========== ====== ==============
    Parameter  Type   Description
@@ -66,7 +66,7 @@ Response Parameters
 
 **Status code: 500**
 
-.. table:: **Table 5** Response body parameter
+.. table:: **Table 5** Response body parameters
 
    ========== ====== ==============
    Parameter  Type   Description
