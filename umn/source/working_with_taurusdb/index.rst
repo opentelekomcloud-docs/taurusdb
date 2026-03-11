@@ -11,6 +11,7 @@ Working with TaurusDB
 -  :ref:`Instance Modifications <gaussdb_03_0029>`
 -  :ref:`Read Replicas <gaussdb_03_0009>`
 -  :ref:`Database Management <gaussdbformysql_03_0120>`
+-  :ref:`DBA Assistant <en-us_topic_0000002521462465>`
 -  :ref:`Account Management (Non-Administrator) <gaussdbformysql_03_0130>`
 -  :ref:`Data Security <gaussdb_03_0050>`
 -  :ref:`Backups and Restorations <gaussdb_03_0055>`
@@ -32,6 +33,7 @@ Working with TaurusDB
    instance_modifications/index
    read_replicas/index
    database_management/index
+   dba_assistant/index
    account_management_non-administrator/index
    data_security/index
    backups_and_restorations/index
