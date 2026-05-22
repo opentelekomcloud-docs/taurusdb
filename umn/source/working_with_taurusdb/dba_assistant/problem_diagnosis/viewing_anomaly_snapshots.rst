@@ -23,7 +23,7 @@ Diagnosis Item
 Constraints
 -----------
 
-Collecting abnormal snapshots will cause about 5% of instance performance loss.
+Collecting anomaly snapshots will cause about 5% of instance performance loss.
 
 Procedure
 ---------
@@ -40,7 +40,7 @@ Procedure
 
 #. Click **Anomaly Snapshots**.
 
-#. Click |image3| on the right of **Collect Abnormal Snapshots** to enable anomaly diagnosis.
+#. Click |image3| on the right of **Anomaly Collection** to enable anomaly diagnosis.
 
    After anomaly diagnosis is enabled, if any anomaly listed in :ref:`Table 1 <en-us_topic_0000002521462469__en-us_topic_0000002009238626_table9521791237>` occurs, you can view its snapshots. Anomaly snapshot records are retained for seven days and will be deleted after this time expires. A maximum of 100 records can be retained for a single node.
 
